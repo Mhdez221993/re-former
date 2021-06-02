@@ -1,24 +1,47 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Microverse Re-former Project
 
-Things you may want to cover:
+> This project will give us a chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Rails
 
-* Configuration
+## Getting Started
+### To get a local copy run the following steps:
 
-* Database creation
+- [Copy this link](git@github.com:Mhdez221993/re-former.git)
+- Open your terminal or command line
+- Run `git clone` and Paste the link
+- Open the folder with your code editor
+- Run `bundle install` to install all dependecies
+- Run `rails db:migrate` to create the database tables
+- Run `rails console` to test the project
 
-* Database initialization
+## Authors
 
-* How to run the test suite
+👤 **Zeenat Lawal**
 
-* Services (job queues, cache servers, search engines, etc.)
+- GitHub: [@ZeenatLawal](https://github.com/ZeenatLawal)
+- Twitter: [@lawal_zeenat](https://twitter.com/lawal_zeenat)
+- LinkedIn: [Zeenat Lawal](https://www.linkedin.com/in/zeenatlawal/)
 
-* Deployment instructions
+👤 **Moises Hernandez Coronado**
 
-* ...
+- GitHub: [@Mhdez221993](https://github.com/Mhdez221993) 
+- Twitter: [@MoisesH42060050](https://twitter.com/MoisesH42060050) 
+- LinkedIn: [Moises Hernandez Coronado](https://www.linkedin.com/in/moises-hernandez-9bbb17145/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Mhdez221993/re-former/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
