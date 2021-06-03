@@ -1,16 +1,16 @@
 <h1>Hello Rails</h1>
 
 <%= form_with model: @user, url: user_path do |form| %>
-  <%= error_helper(@user) %>
+  <%= error_helper(@user) %><br>
 
-  <%= form.label :username, "Username:" %>
+  <%= form.label :username, "Username:" %><br>
   <%= form.text_field :username, autofocus: true %><br>
   <br>
-  <%= form.label :email, "Email:" %>
+  <%= form.label :email, "Email:" %><br>
   <%= form.email_field :email, placeholder: 'example@example.com'
  %><br>
   <br>  
-  <%= form.label :password, "Password:" %>
+  <%= form.label :password, "Password:" %><br>
   <%= form.password_field :password %><br>
   <br>  
   <%= form.submit "Submit" %>
