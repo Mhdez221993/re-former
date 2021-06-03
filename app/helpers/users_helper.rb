@@ -1,10 +1,12 @@
 module UsersHelper
-  def error_helper(user)
+  def error_helper(_user)
     if @user.errors.any?
-      pluralize(@user.errors.count, "error")
+      pluralize(@user.errors.count, 'error')
+      err = ''
       @user.errors.full_messages.each do |msg|
-        msg
+        err << "#{msg}  "
       end
+      err
     end
   end
 end
