@@ -17,8 +17,13 @@
 - Run `git clone` and Paste the link
 - Open the folder with your code editor
 - Run `bundle install` to install all dependecies
+- Run `yarn install` to install yarn
 - Run `rails db:migrate` to create the database tables
+- Run `rails server` to open the local server
+- Use this [link](http://localhost:3000/users/new) to create a new user
+- Use this [link](http://localhost:3000/users/1/edit) to edit an existing user
 - Run `rails console` to test the project
+- Run `User.all` to see the changes made to the database
 
 ## Authors
 
